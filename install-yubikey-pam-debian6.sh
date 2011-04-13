@@ -84,7 +84,7 @@ Default: yes
 Priority: 512
 Auth-Type: Primary
 Auth:
-        requisite pam_yubico.so id=5461 authfile=/etc/yubikey" >> /usr/share/pam-configs/yubikey
+        requisite pam_yubico.so id=xxxx authfile=/etc/yubikey" >> /usr/share/pam-configs/yubikey
 
 pam-auth-update
 
