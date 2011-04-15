@@ -71,7 +71,7 @@ echo "(6/26) ==> Cleaning up ..."
 rm -rf $LIBYUBIKEY $LIBYUBIKEY.tar.gz
 
 if [ ! -f $YKPERS.tar.gz ]; then
-	echo "(7/26) ==> Downloading $YKPERS from googlecode.gom ..."
+	echo "(7/26) ==> Downloading $YKPERS from googlecode.com ..."
 	curl -s -o $YKPERS.tar.gz http://yubikey-personalization.googlecode.com/files/$YKPERS.tar.gz
 fi
 

@@ -1,1 +1,9 @@
-This file will be written eventually
+This is a script that will take care of the process of configuring your Linux machine to use the Yubikey one time password device as a second factor of authentication. 
+
+Currently this script only works on debian squeeze (version 6.0.x) but I intend to add more distributions later. 
+
+Just download the script and run it, if you have curl installed you could just do:
+
+curl -o /tmp/yubikey-install.sh https://github.com/rickard2/Yubikey-PAM-Installer/blob/master/install-yubikey-pam-debian6.sh && bash /tmp/yubikey-install.sh
+
+Suggestions and feedback always appreciated
