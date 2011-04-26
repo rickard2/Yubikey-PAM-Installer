@@ -35,7 +35,7 @@ read continue
 
 clear 
 
-echo "You will have to get a API key to be able to use the Yubico authentication "
+echo "You'll have to get an API key to be able to use the Yubico authentication "
 echo "service. Please visit https://upgrade.yubico.com/getapikey/ and use your "
 echo "Yubikey to get a API key. You need to have one before installation can begin."
 echo ""
@@ -159,6 +159,12 @@ echo "If you choose to enable Yubikey authentication in pam-auth-update, you can
 echo "now try to sign in using your Yubikey by running the command 'login'."
 echo "It's highly recommended that you try this out before you sign out, since "
 echo "a misconfiguration can lead to you not being able to access your server."
+echo "" 
+echo "If you want to sign in to your account with SSH you need to first enter "
+echo "your regular password and then, without pressing enter, push the button "
+echo "on your yubikey to generate an OTP. This will send your regular password "
+echo "and the OTP as one password to SSH. But when signing in locally you'll "
+echo "still be prompted for both the password and OTP separately."
 echo "" 
 echo "Please note that the root account is the only account which has a Yubikey "
 echo "enabled. To add more users just edit /etc/yubikey with more users and their"
