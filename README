@@ -4,4 +4,6 @@ This script is tested and confirmed to work on the following distributions:
  * Debian/squeeze (version 6)
  * Ubuntu versions 10.04 lucid and 10.10 maverick
 
+If you try it out in another distribution, please confirm if it works or contribute if it doesn't :)
+
 Suggestions and feedback always appreciated
