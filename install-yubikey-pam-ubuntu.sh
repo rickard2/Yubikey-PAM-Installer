@@ -13,8 +13,8 @@ fi
 
 LIBYUBIKEY="libyubikey-1.7"
 YKPERS="ykpers-1.5.2"
-YKCLIENT="ykclient-2.5"
-PAM_YUBICO="pam_yubico-2.6"
+YKCLIENT="ykclient-2.6"
+PAM_YUBICO="pam_yubico-2.7"
 
 clear
 
