@@ -12,7 +12,7 @@ if [ ! `whoami` == "root" ]; then
 fi
 
 LIBYUBIKEY="libyubikey-1.8"
-YKPERS="ykpers-1.11.1"
+YKPERS="ykpers-1.11.3"
 YKCLIENT="ykclient-2.9"
 PAM_YUBICO="pam_yubico-2.12"
 
