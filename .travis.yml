@@ -1,0 +1,2 @@
+before_script: chmod +x ./test/test-ubuntu.sh
+script: ./test/test-ubuntu.sh
