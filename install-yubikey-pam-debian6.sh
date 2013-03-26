@@ -11,8 +11,8 @@ if [ ! `whoami` == "root" ]; then
 	exit 1
 fi
 
-LIBYUBIKEY="libyubikey-1.8"
-YKPERS="ykpers-1.11.3"
+LIBYUBIKEY="libyubikey-1.10"
+YKPERS="ykpers-1.12.0"
 YKCLIENT="ykclient-2.9"
 PAM_YUBICO="pam_yubico-2.13"
 
