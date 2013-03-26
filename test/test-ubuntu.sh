@@ -20,7 +20,7 @@ if [ ! -f /lib/security/pam_yubico.la ]; then
     exit 1
 fi
 
-fi [ ! -f /lib/security/pam_yubico.so ]; then
+if [ ! -f /lib/security/pam_yubico.so ]; then
     exit 1
 fi
 
